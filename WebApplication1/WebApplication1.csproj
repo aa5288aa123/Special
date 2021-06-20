@@ -72,6 +72,7 @@
     <Content Include="home page.aspx" />
     <Content Include="Web.config" />
     <Content Include="yorka.aspx" />
+    <Content Include="非常討厭.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="drink.aspx.cs">
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="yorka.aspx.designer.cs">
       <DependentUpon>yorka.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="非常討厭.aspx.cs">
+      <DependentUpon>非常討厭.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="非常討厭.aspx.designer.cs">
+      <DependentUpon>非常討厭.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
