@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div>
                         <h2>菜單</h2>
-            <asp:Button ID="Button1" runat="server" Text="炸物" PostBackUrl="Price.aspx"/>
+            <asp:Button ID="Button1" runat="server" Text="炸物" PostBackUrl="非常討厭.aspx"/>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button2" runat="server" Text="飲料" PostBackUrl="drink.aspx"/>
         </div> 
