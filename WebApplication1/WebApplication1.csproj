@@ -68,11 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="drink.aspx" />
+    <Content Include="drink2.aspx" />
     <Content Include="Global.asax" />
     <Content Include="homepage.aspx" />
     <Content Include="Web.config" />
     <Content Include="yorka.aspx" />
     <Content Include="非常討厭.aspx" />
+    <Content Include="Price2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="drink.aspx.cs">
@@ -81,6 +83,13 @@
     </Compile>
     <Compile Include="drink.aspx.designer.cs">
       <DependentUpon>drink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="drink2.aspx.cs">
+      <DependentUpon>drink2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="drink2.aspx.designer.cs">
+      <DependentUpon>drink2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -106,6 +115,13 @@
     </Compile>
     <Compile Include="非常討厭.aspx.designer.cs">
       <DependentUpon>非常討厭.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Price2.aspx.cs">
+      <DependentUpon>Price2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Price2.aspx.designer.cs">
+      <DependentUpon>Price2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
