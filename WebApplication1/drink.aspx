@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-                        <h2><asp:Label ID="Label1" runat="server" Text="菜單"></asp:Label></h2>
+                                    <h2><asp:Label ID="Label1" runat="server" Text="菜單"></asp:Label></h2>
             
         <asp:CheckBox ID="CheckBox1" runat="server" Text="珍珠奶茶"/>      
         <asp:Label ID="Label2" runat="server" Text="45元"></asp:Label>
